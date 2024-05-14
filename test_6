@@ -1,0 +1,50 @@
+# Условие if_else
+
+# if если True
+
+is_rainy = True # дождь будет
+if is_rainy:
+    print('Беру зонт')
+    print('Надеть сапоги')
+    print('Не беру зонт')
+
+print('иду гулять')
+
+
+# # else если false
+#
+is_rainy = False # дождя не будет
+
+if is_rainy:
+    print('Беру зонт')
+    print('Одеваю сапоги')
+else:
+    print('Не беру зонт')
+print('Иду гулять')
+#
+#
+# # Условие if_ без else
+#if если True или False
+
+is_rainy = True # дождь будет
+
+if is_rainy:
+    print('Беру зонт')
+print('Иду гулять')
+#
+#
+is_rainy = False # дождя не будет
+if is_rainy: # Ничего распечатано не будет
+    print('Беру зонт')
+print('Иду гулять')
+
+
+# Вложенный условный оператор
+is_rainy = True # дождь будет
+heavy_rain = False # не сильный дождь
+if is_rainy:
+    if heavy_rain:
+        print('Беру зонт')
+    else:
+        print('Не беру зонт')
+    print('Иду гулять')   
