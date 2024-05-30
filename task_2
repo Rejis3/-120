@@ -1,0 +1,62 @@
+#String; Create
+a = 'привет'
+b = "привет"
+c = "я 'знаю' Python"
+d = 'я "знаю" Python'
+e = 'я "знаю' Python"
+
+a = 123
+a = str(a)
+str([1, 11, 'a'])
+str(True)
+str(None)
+
+
+a = 'привет'
+b = 'Иван'
+c = f"{a} я {b}"
+
+
+#Retrive
+a = 'привет'
+print(a)
+print('Иван')
+
+a= 'привет'
+a[0]
+a[1]
+a[2]
+a[3]
+a[4]
+a[5]
+a[6]
+a[-1]
+a[-2]
+a[-3]
+a[-4]
+a[-5]
+a[-6]
+a[-7]
+
+#Delete
+a = 'привет'
+a[0] = 'б'
+a = 'бривет'
+a = 'привет'
+del a[0]
+del a
+
+
+a = 'привет'
+b = 'Мир'
+c = a + b
+print[c]
+c += b
+
+a = 'привет'
+b = 'Мир'
+c = a + b
+print[c]
+c *= b
+
+
